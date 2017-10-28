@@ -1,7 +1,4 @@
-body {
-	font-size: 15px;
-	font-weight: 400;
-	height: 200px;
-	color: blue;
-	background-color: black;
-}
+@import "variable";
+@import "global";
+@import "main_header";
+@import "services";
