@@ -28,6 +28,12 @@ body {
 
 }
 
+.content_section {
+	font-weight: 500;
+	line-height: 1.8;
+	letter-spacing: 0.5px;
+}
+
 .clearfix {
 	&::before, &::after {
 		content: "";
@@ -37,3 +43,4 @@ body {
 		display: table;
 	}
 }
+
