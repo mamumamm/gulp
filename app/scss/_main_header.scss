@@ -9,7 +9,7 @@
 	height: 100vh;
 	min-height: 800px;
 
-	@media screen and (max-width: 992px) {
+	@media screen and (max-width: 991px) {
 		min-height: 768px;
 		
 	}
@@ -67,6 +67,10 @@
 					font-weight: 500;
 					opacity: 0.9;
 
+					&:hover {
+						color: $c-content;
+					}
+
 				}
 				.btn {
 					background-color: $primary;
@@ -74,6 +78,11 @@
 					font-size: 14px;
 					letter-spacing: 0.8px;
 					margin-left: 15px;
+
+					&:hover {
+						color: $primary;
+						background-color: $w;
+					}
 
 					
 				}
@@ -155,6 +164,7 @@
 			}
 			.btn {
 				font-size: 14px;
+				
 			}
 		}
 	}

@@ -1,0 +1,101 @@
+#footer {
+    padding: 100px 0 50px;
+    background-color: $c_f;
+
+    .newsletter {
+        text-align: center;
+        color: $w;
+        
+        h3 {
+            margin-bottom: 40px;
+            font-size: 32px;
+        }
+        form {
+           
+            .form-control {
+                padding: 15px 25px;
+                width: 100%;
+                margin-right: 20px;
+                border-radius: 5px;
+                border: 1px solid $c_ef;
+
+                @media screen and(max-width:320px) {
+                    width: 100%;
+                }
+            }
+            .btn {
+                width: 100%;
+                padding: 15px 0;
+                background-color: $primary;
+                color: $w;
+                border: 1px solid $primary;
+                border: 5px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .nav {
+        margin-top: 65px;
+        display: block;
+
+        .logo-brand {
+            float: left;
+            font-size: 25px;
+            color: $w;
+            font-weight: 700;
+        }
+        ul {
+            float: right;
+            li {
+                display: inline-block;
+
+                a {
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: $c-content;
+                    margin: 0 15px;
+                    text-decoration: none;
+
+
+                    &:hover, &:active, &focus {
+                        color: $w;
+                    }
+                }
+            }
+        }
+    }
+
+    .copyright {
+        margin-top: 15px;
+
+        h5 {
+            float: left;
+            font-size: 14px;
+        }
+        span {
+            color: $w;
+        }
+        ul {
+            float: right;
+            li {
+                display: inline-block;
+
+                a {
+                    font-size: 15px;
+                    margin: 0 10px;
+                    color: $c-content;
+
+                    i {
+                        &:hover, &:active, &focus {
+                            color: $w;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
